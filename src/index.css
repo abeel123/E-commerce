@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+  font-family: "Quicksand";
+  color: #333;
+  font-size: 15px;
+
+}
+.navbar {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  margin:  20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+  
+}
+.links {
+  margin-left: auto;
+}
+
+.navbar a{
+  margin: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #999999;
+  padding: 6px;
+}
+.navbar a:hover{
+  color: #f1356d;
+
+}
+.navbar button {
+  margin: 8px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.nav-btn {
+  font-size: 20px !important;
+  border-radius: 10px !important;
+  color: #999999!important;
+  border-color: #f1356d!important;
+  text-transform: uppercase !important;
+}
+
+.card-btn{
+  font-size: 15px !important;
+  border-radius: 10px !important;
+  color: white!important;
+  border-color: #f1356d !important;
+  background-color: #f1356d !important;
+  margin-left: 295px;
+}
+
+.credentials{
+  left: 30px;
+  margin-left: auto;
+  max-height: auto;
+  max-width: 400px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #f2f2f2 !important;
+  background-color: #f1356d !important;
+}
+
+.nav-tabs .nav-link{
+  color: #999999 !important;
+}
+
+
+.form-spacing{
+  margin-bottom: 15px;
+  padding: auto;
+}
+
+.navbar button:hover{
+  background: #f1356d !important;
+  color: aliceblue !important;
+  border-color: #f1356d!important;
+
+}
+.content {
+  max-width: auto;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.carousel{
+  width: 640px;
+  height: 360px;
+}
