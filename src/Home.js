@@ -1,7 +1,6 @@
 import { Button, Container, Row, Col } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
-import CarouselSlide from "./Carousel";
 import  Cards  from './entryCard';
 
 
@@ -12,8 +11,8 @@ const Home = () => {
         <div className="home">
             <Container>
                 <Row>
-                    <Col>                       
-                        <CarouselSlide />
+                    <Col>  
+                    <p><Placeholder></Placeholder></p>                     
                     </Col>
                     <Col>                       
                         <Cards />
